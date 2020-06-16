@@ -17,13 +17,13 @@
         </div>
         <nav class="topnav" id="myTopnav">
             <div class="nav-links">
-                <a href="../index.html">HOME</a>
-                <a href="videos.html">VIDEOS</a>
+                <a href="../home/index.html">HOME</a>
+                <a href="../topbill/top.html">TOP</a>
                 <a href="../login/form.php">LOGIN</a>
                 <a href="contact.php">CONTACT</a>
                 <a href="about.html">ABOUT</a>
                 <a href="location.html">LOCATION</a>
-                <a href="location.html">SOMETHING</a>
+                <a href="../login/logout.php">LOGOUT</a>
                 <a id="menu" href="javascript:void(0);" class="icon">&#9776;</a>
                 </div>
         </nav>

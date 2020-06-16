@@ -9,7 +9,7 @@ catch (Exception $e){
 }
 
 
-if($_COOKIE["ageCheck"])
-    header("location: index.html");
-    else header("location: videos.html");
+if(!$_COOKIE["ageCheck"])
+    header("location: home/index.html");
+    else header("location: welcome.php");
 ?>

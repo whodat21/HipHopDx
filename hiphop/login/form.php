@@ -12,7 +12,7 @@
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <header>
         <div class="logo">
-            <a href="../index.html"><img class="graficlogo" src="../logo-black.svg" alt="Logo" style="opacity: 1;"></a>
+            <a href="../home/index.html"><img class="graficlogo" src="../logo-black.svg" alt="Logo" style="opacity: 1;"></a>
         </div>
 
     </header>
@@ -31,7 +31,6 @@
         </span>
         <button type="submit" name="loginbtn">LOGIN</button>
 <!--        <input type="button" name="loginbtn" value="LOGIN">-->
-        <a href="#">Forgotten Password?</a><br><br>
 <!--        <form>-->
 <!--            <input type="submit" name="registersbt" value="REGISTER">  -->
 <!--        </form>-->

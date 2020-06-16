@@ -21,15 +21,19 @@
         </div>
         <form class="" action="checkAge.php" method="post">
         <div class="content">
-          <div class="container">
-            <h1> Welcome to HIP-HOP news</h1>
+          <div class="container2">
+            <h1>Welcome to HIP-HOP NEWS</h1>
           </div>
           <div class="container">
-                <input type="checkbox" name="age" value=""><br> I am already 18 years old
+              <br>
+              <label for="checkbox" style="color: snow">I AM ALREADY 18 YEARS OLD</label>
+                <input type="checkbox" class="checkmark" name="age" value=""><br>
               <button type="submit" name="button1" >Start</button><br>
           </div>
         </div>
         </form>
         </div>
   </body>
+
 </html>
+
