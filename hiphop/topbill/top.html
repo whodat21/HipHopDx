@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    $(document).ready(function(){
+  $("button1").click(function(){
+    $(".recom").load("recom.txt");
+  });
+});
+</script>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+$(document).ready(function(){
+  $('.fadein')
+    on('click', function(){
+    $('.recombar').fadeIn('slow')
+  })
+})
+</script>
+</head>
+<body>
+  <input type="button" name="theme-button" value="Change theme">
+    <header>
+        <div class="logo">
+            <a href="../home/index.html"><img class="graficlogo" src="../logo-black.svg" alt="Logo"></a>
+        </div>
+        <nav class="topnav" id="myTopnav">
+            <div class="nav-links">
+                <a href="../home/index.html">HOME</a>
+                <a href="top.html">VIDEOS</a>
+                <a href="../login/form.php">LOGIN</a>
+                <a href="../contact/contact.php">CONTACT</a>
+                <a href="#">ABOUT</a>
+                <a href="#">LOCATION</a>
+                <a href="../login/logout.php">LOGOUT</a>
+                <a id="menu" href="javascript:void(0);" class="icon">&#9776;</a>
+                </div>
+        </nav>
+    </header>
+      <div class="top">
+        <div class="topaudio">
+          TOP 1 in our top : Travis Scott - WAKE UP
+          <audio src="\audio\WAKE_UP.mp3">
+          </audio>
+        </div>
+        <div class="topaudio">
+          TOP 2.
+          It is : GUNNA - WANNA
+          <audio src="\audio\WANNA.mp3">
+          </audio>
+        </div>
+        <div class="topaudio">
+          TOP 3:
+          Travis Scott - R.I.P. SCREW
+        </div>
+        <div class="topaudio">
+            TOP 4:
+            Blueface - Thotiana
+        </div>
+        <div class="topaudio">
+            TOP 5:
+            GUNNA - SKYBOX
+        </div>
+        <div class="topaudio">
+            TOP 6:
+            GUNNA - FEIGNING
+        </div>
+        <div class="topaudio">
+            TOP 7:
+            KID SEE GHOSTS
+        </div>
+        <div class="topaudio">
+            TOP 8:
+            LIL TJAY - Pop Out
+        </div>
+        <div class="topaudio">
+            TOP 9
+            playboy carti - Kid Cudi
+        </div>
+        <div class="topaudio">
+            TOP 10
+            Blueface - Daddy
+        </div>
+      </div>
+      </div>
+      <script type="text/javascript">
+      $(document).ready(function(){
+        $('.theme-button').on('click', function(){
+          $('.recombar').slideToggle(1000);
+        });
+      });
+      </script>
+      <input type="button" name="fadein" value="fadein">
+      <input type="button" name="fadeout" value="fadeout">
+      <div class="recombar">
+        <div class="recom">
+          <img src="https://static.hiphopdx.com/2020/05/2020-05-08-drake-220x165.jpg"><br>
+          Drake's 10-Year Billboard Streak <br>
+          <button type="button" name="button1">Read more</button>
+        </div>
+        <div class="recom1">
+          <img src="https://static.hiphopdx.com/2020/05/200507-Tekashi-6ix9ine-220x165.jpg" alt=""><br>
+          Tekashi 6ix9ine Apologizes
+          <br>
+          <button type="button" name="button2">Read more</button>
+        </div>
+        <div class="recom2">
+          <img src="https://static.hiphopdx.com/2020/05/LeeorWild-CHIKA-3-1-220x165.jpg" alt=""><br>
+          Chika Admits <br>
+          <button type="button" name="button3">Read more</button>
+        </div>
+      </div>
+      </body>
+      <footer>
+
+          <!------------------------------------------  !!! ФУТЕР !!! ----------------------------------------------------------------->
+          <div class="footer">
+              <h4>This project made by Adil Rakhmetov and Miras Satybai.</h4>
+              <p>The site was made solely for the purpose of studying web development. Address your all arising questions to developers (Miras and Adil).</p>
+              <p>Contact and support us on</p>
+                <p><a href="https://vk.com/playbabushkaboi">vk</a></p>
+                <p><a href="https://www.instagram.com/adil_rkhm">instagram</a></p>
+                <p><a href="https://twitter.com/">twitter</a></p>
+              <p>Copyright © 2020 HipHopDXAll Rights Reserved</p>
+            </div>
+
+      </footer>
+      </html>
